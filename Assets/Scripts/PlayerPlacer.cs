@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class PlayerPlacer : MonoBehaviour
@@ -8,9 +9,8 @@ public class PlayerPlacer : MonoBehaviour
     public Transform sitPos;
     void Start()
     {
-        Debug.Log(player.position + " " + sitPos.position);
-        player.position = sitPos.position;
-        Debug.Log(player.position);
+        XROrigin xROrigin = new XROrigin();
+        xROrigin.MoveCameraToWorldLocation(sitPos.position);
     }
 
 }
