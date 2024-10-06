@@ -342,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410678806}
   - component: {fileID: 410678807}
+  - component: {fileID: 410678808}
   m_Layer: 0
   m_Name: ChairParent
   m_TagString: Untagged
@@ -386,6 +387,22 @@ MonoBehaviour:
   key: 119
   degreesToTurn: 1800
   secondsForOneRotation: 60
+  parentTransform: {fileID: 410678806}
+--- !u!114 &410678808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410678805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dac2c84448dfb8478a777a3cb1fe8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: 101
+  degreesToTurn: 90
+  secondsForOneRotation: 30
 --- !u!1 &489468773
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,7 +2845,6 @@ GameObject:
   - component: {fileID: 4695906265906224027}
   - component: {fileID: 2676880635362658113}
   - component: {fileID: 375460378482799948}
-  - component: {fileID: 4695906265906224028}
   m_Layer: 0
   m_Name: OuterRingXAxis :D
   m_TagString: Untagged
@@ -3369,21 +3385,6 @@ Transform:
   - {fileID: 410678806}
   m_Father: {fileID: 543450653133933094}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4695906265906224028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 531438571443216001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dac2c84448dfb8478a777a3cb1fe8cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 101
-  degreesToTurn: 90
-  secondsForOneRotation: 30
 --- !u!33 &4723510128191451769
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -40,7 +40,6 @@ public class SpinActivatorX : MonoBehaviour
     private void StartSpin()
     {
         float angle = Mathf.SmoothDampAngle(transform.eulerAngles.x, startRot.eulerAngles.x + movement, ref r, time);
-        this.transform.rotation = Quaternion.Euler(angle, transform.rotation.y, 0);
-        this.transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, 0, transform.rotation.w);
+        this.transform.rotation = Quaternion.Euler(angle, transform.eulerAngles.y, 0);
     }
 }

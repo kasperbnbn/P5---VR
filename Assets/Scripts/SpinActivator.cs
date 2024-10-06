@@ -14,6 +14,8 @@ public class SpinActivator : MonoBehaviour
     public float secondsForOneRotation = 60;
     private float movement;
 
+    public Transform parentTransform;
+
     private void Awake()
     {
         startRot = transform.rotation;
@@ -33,13 +35,11 @@ public class SpinActivator : MonoBehaviour
                 movement += speed * (60/secondsForOneRotation) * Time.deltaTime;
             }
         }
-
-
     }
 
     private void StartSpin()
     {
         float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, startRot.eulerAngles.y + movement, ref r, time);
-        this.transform.rotation = Quaternion.Euler(transform.rotation.x, angle, transform.rotation.z);
+        this.transform.rotation = Quaternion.Euler(parentTransform.eulerAngles.x, angle, parentTransform.eulerAngles.z);
     }
 }
