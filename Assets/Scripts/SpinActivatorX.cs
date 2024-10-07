@@ -21,6 +21,11 @@ public class SpinActivatorX : MonoBehaviour
         float activateValue = activateButton.action.ReadValue<float>();
         float deactivateValue = deactivateButton.action.ReadValue<float>();
 
+        if (Input.GetKey(key))
+        {
+            started = true;
+        }
+
         if (activateValue == 1 && deactivateValue == 0)
         {
             if (!started)
