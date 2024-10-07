@@ -1,30 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class SpinActivatorX : MonoBehaviour
 {
     public KeyCode key;
-    private float time = 0.1f;
     public float degreesToTurn;
-    private Quaternion startRot;
-    float r;
     bool started = false;
     private float speed = 6;//Takes 360 seconds for a full rotation at speed == 1. 60 seconds is speed == 6
     public float secondsForOneRotation = 60;
     private float movement;
 
-    private void Awake()
-    {
-        startRot = transform.rotation;
-    }
+    public InputActionProperty activateButton;
+    public InputActionProperty deactivateButton;
+    float timer = 0f;
 
     void Update()
     {
-        if (Input.GetKeyDown(key))
+        float activateValue = activateButton.action.ReadValue<float>();
+        float deactivateValue = deactivateButton.action.ReadValue<float>();
+
+        if (activateValue == 1 && deactivateValue == 0)
         {
-            started = true;
+            if (!started)
+            {
+                timer += Time.deltaTime;
+                if (timer >= 1)
+                {
+                    started = true;
+                }
+            }
+
         }
+
+        if (deactivateValue == 1)
+        {
+            if (started)
+            {
+                timer += Time.deltaTime;
+                if(timer >= 0.5f)
+                {
+                    started = false;
+                }
+            }
+        }
+
+        if (deactivateValue == 0 && activateValue == 0)
+        {
+            timer = 0;
+        }
+
+
         if (started)
         {
             StartSpin();
@@ -39,7 +66,6 @@ public class SpinActivatorX : MonoBehaviour
 
     private void StartSpin()
     {
-        float angle = Mathf.SmoothDampAngle(transform.eulerAngles.x, startRot.eulerAngles.x + movement, ref r, time);
-        this.transform.rotation = Quaternion.Euler(angle, transform.eulerAngles.y, 0);
+        this.transform.localRotation = Quaternion.AngleAxis(movement, Vector3.right);
     }
 }

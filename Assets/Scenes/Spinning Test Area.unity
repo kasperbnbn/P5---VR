@@ -491,7 +491,32 @@ MonoBehaviour:
   key: 119
   degreesToTurn: 720
   secondsForOneRotation: 10
-  parentTransform: {fileID: 410678806}
+  activateButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Activate Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 64d7b7ab-54fa-4992-a024-f0b79b153a93
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  deactivateButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Deactivate Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 778df3d4-3f3d-4587-a98f-80159dc078a2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!1 &489468773
 GameObject:
   m_ObjectHideFlags: 0
@@ -5079,8 +5104,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 101
-  degreesToTurn: 90
+  degreesToTurn: 180
   secondsForOneRotation: 30
+  activateButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Activate Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 401a1f2b-c8ba-4798-9340-febf8b9e3f25
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  deactivateButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Deactivate Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 76add348-7b88-428e-8218-dabc1f8238bf
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!33 &4723510128191451769
 MeshFilter:
   m_ObjectHideFlags: 0
