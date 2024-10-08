@@ -4,17 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/NY spinning.unity
-    guid: b0e9dd24a947427478ce635982b42fa4
-  - enabled: 1
-    path: Assets/Scenes/Spinning Test Area.unity
-    guid: 67893dd6b6b56574ab45c522f57e48fb
-  m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 775006394130d8f4fb5ec98c1edbd580,
-      type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e5815dc682f5b0b46b7b6a87f08b523a,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: bcc742f8f53a4c440b1cff8b1e006f50,
-      type: 2}
+  m_Scenes: []
+  m_configObjects: {}
