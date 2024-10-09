@@ -619,7 +619,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2c050efeddc4dc3479233d20130de6b1, type: 2}
+  - {fileID: 2100000, guid: d06b3bb1e1d10b740a9eb3b48dc60a5b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -757,6 +757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LeftHand
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47988f8e5d9961941a2eceb63c9f8068,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1431,7 +1436,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 47988f8e5d9961941a2eceb63c9f8068,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 47988f8e5d9961941a2eceb63c9f8068,
         type: 3}

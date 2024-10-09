@@ -1966,6 +1966,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftHand
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47988f8e5d9961941a2eceb63c9f8068,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2849,7 +2854,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 47988f8e5d9961941a2eceb63c9f8068,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 47988f8e5d9961941a2eceb63c9f8068,
         type: 3}
