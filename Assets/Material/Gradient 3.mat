@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5242887002134137244
+--- !u!114 &-3668527543287675177
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Gradient 1
-  m_Shader: {fileID: -6465566751694194690, guid: d92e836a3aa637a4481601e0c3ee7800,
+  m_Name: Gradient 3
+  m_Shader: {fileID: -6465566751694194690, guid: fc3f80216b8e64d44a5f1e1489850c54,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -51,10 +51,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ColorOn: 0
+    - _ColorOn: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 100
-    - _Step: 0.322
+    - _Scale: 500
+    - _Step: 0.5
     m_Colors: []
   m_BuildTextureStacks: []
