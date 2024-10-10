@@ -14,7 +14,13 @@ public class SpinActivatorX : MonoBehaviour
 
     public InputActionProperty activateButton;
     public InputActionProperty deactivateButton;
-    float timer = 0f;
+    //float timer = 0f;
+    private Timer timer;
+
+    private void Awake()
+    {
+        timer = new Timer();
+    }
 
     void Update()
     {
@@ -30,8 +36,8 @@ public class SpinActivatorX : MonoBehaviour
         {
             if (!started)
             {
-                timer += Time.deltaTime;
-                if (timer >= 1)
+                timer.StartTimer();
+                if (timer.time >= 1)
                 {
                     started = true;
                 }
@@ -43,8 +49,8 @@ public class SpinActivatorX : MonoBehaviour
         {
             if (started)
             {
-                timer += Time.deltaTime;
-                if(timer >= 0.5f)
+                timer.StartTimer();
+                if (timer.time >= 0.5f)
                 {
                     started = false;
                 }
@@ -53,7 +59,8 @@ public class SpinActivatorX : MonoBehaviour
 
         if (deactivateValue == 0 && activateValue == 0)
         {
-            timer = 0;
+            timer.ResetTimer();
+            timer.StopTimer();
         }
 
 
@@ -66,7 +73,8 @@ public class SpinActivatorX : MonoBehaviour
             }
         }
 
-
+        Debug.Log(timer.time);
+        timer.IncrementTime();
     }
 
     private void StartSpin()

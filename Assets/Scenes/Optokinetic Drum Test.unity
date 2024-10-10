@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 793568385}
   - component: {fileID: 793568384}
   - component: {fileID: 793568383}
-  - component: {fileID: 793568382}
+  - component: {fileID: 793568386}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -576,29 +576,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &793568382
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 793568381}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!23 &793568383
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -659,11 +636,28 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.41609764, y: 1.6, z: 0.233}
-  m_LocalScale: {x: 5.3, y: 12.8, z: 5.3}
+  m_LocalScale: {x: 8.2, y: 12.8, z: 5.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &793568386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793568381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4a6502bc0238f48bea1f33debfb6a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materials:
+  - {fileID: 2100000, guid: 2c050efeddc4dc3479233d20130de6b1, type: 2}
+  - {fileID: 2100000, guid: d3b7baef45d1f654da40d708d512c103, type: 2}
+  - {fileID: 2100000, guid: 51637a61df97cb9448dd3183b3f4ccb9, type: 2}
+  - {fileID: 2100000, guid: d06b3bb1e1d10b740a9eb3b48dc60a5b, type: 2}
 --- !u!1 &1095210554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1452,150 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1342572330}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1568477614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1568477616}
+  - component: {fileID: 1568477615}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1568477615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568477614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53ea23425fd660f46a5286ba1668914a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xAxis: {fileID: 0}
+  yAxis: {fileID: 0}
+  rightIndexButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Index Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ec161ff8-3450-43e1-8e90-61420e4df976
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  leftIndexButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Index Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ec6361ae-95cc-4388-bc8d-b231732cd525
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  rightGripButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Grip Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 99df993e-9f14-434e-ab8c-5dce0b0d7067
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  leftGripButton:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Grip Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: ef1cb9db-6f0d-4325-92fb-a9dac1901fbb
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  rightAButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right A Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 25bb135f-fbf9-49dc-aea3-402e395f9929
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -7737819903198636081, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  rightBButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right B Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 85ebf129-e181-4fed-a04a-14b7f91884f4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1946074417563703055, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  rightIndexAction:
+    m_PersistentCalls:
+      m_Calls: []
+  leftIndexAction:
+    m_PersistentCalls:
+      m_Calls: []
+  rightAAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 793568386}
+        m_TargetAssemblyTypeName: MaterialChanger, Assembly-CSharp
+        m_MethodName: ChangeMat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  rightBAction:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1568477616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568477614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.52973, y: -0.20270036, z: -25.09098}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1640456823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,3 +3067,4 @@ SceneRoots:
   - {fileID: 1868737734}
   - {fileID: 543450653133933094}
   - {fileID: 793568385}
+  - {fileID: 1568477616}
