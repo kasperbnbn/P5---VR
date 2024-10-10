@@ -654,10 +654,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materials:
+  - {fileID: 2100000, guid: d06b3bb1e1d10b740a9eb3b48dc60a5b, type: 2}
   - {fileID: 2100000, guid: 2c050efeddc4dc3479233d20130de6b1, type: 2}
   - {fileID: 2100000, guid: d3b7baef45d1f654da40d708d512c103, type: 2}
   - {fileID: 2100000, guid: 51637a61df97cb9448dd3183b3f4ccb9, type: 2}
-  - {fileID: 2100000, guid: d06b3bb1e1d10b740a9eb3b48dc60a5b, type: 2}
 --- !u!1 &1095210554
 GameObject:
   m_ObjectHideFlags: 0
