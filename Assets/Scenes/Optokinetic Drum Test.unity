@@ -1495,6 +1495,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+  rightIndexAction:
+    m_PersistentCalls:
+      m_Calls: []
   leftIndexButton:
     m_UseReference: 0
     m_Action:
@@ -1507,6 +1510,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+  leftIndexAction:
+    m_PersistentCalls:
+      m_Calls: []
   rightGripButton:
     m_UseReference: 0
     m_Action:
@@ -1519,6 +1525,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+  rightGripAction:
+    m_PersistentCalls:
+      m_Calls: []
   leftGripButton:
     m_UseReference: 0
     m_Action:
@@ -1531,6 +1540,9 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+  leftGripAction:
+    m_PersistentCalls:
+      m_Calls: []
   rightAButton:
     m_UseReference: 1
     m_Action:
@@ -1544,25 +1556,6 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -7737819903198636081, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
-  rightBButton:
-    m_UseReference: 1
-    m_Action:
-      m_Name: Right B Button
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 85ebf129-e181-4fed-a04a-14b7f91884f4
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -1946074417563703055, guid: c348712bda248c246b8c49b3db54643f,
-      type: 3}
-  rightIndexAction:
-    m_PersistentCalls:
-      m_Calls: []
-  leftIndexAction:
-    m_PersistentCalls:
-      m_Calls: []
   rightAAction:
     m_PersistentCalls:
       m_Calls:
@@ -1578,6 +1571,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  rightBButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right B Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 85ebf129-e181-4fed-a04a-14b7f91884f4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -1946074417563703055, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
   rightBAction:
     m_PersistentCalls:
       m_Calls: []
