@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Optokinetic Drum Test.unity
+    guid: 67893dd6b6b56574ab45c522f57e48fb
+  - enabled: 1
+    path: Assets/Scenes/Random bolde  i rummet.unity
+    guid: b0e9dd24a947427478ce635982b42fa4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 775006394130d8f4fb5ec98c1edbd580,
       type: 2}

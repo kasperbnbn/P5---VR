@@ -39,7 +39,6 @@ public class MaterialChanger : MonoBehaviour
                 debounce = false;
                 timer.ResetTimer();
             }
-            Debug.Log(timer.time);
         }
 
         timer.IncrementTime();
