@@ -55,6 +55,6 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 100
-    - _Step: 0.322
+    - _Step: 0.317
     m_Colors: []
   m_BuildTextureStacks: []
