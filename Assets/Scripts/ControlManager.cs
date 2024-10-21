@@ -19,6 +19,10 @@ public class ControlManager : MonoBehaviour
     public UnityEvent rightAAction;
     public InputActionProperty rightBButton;
     public UnityEvent rightBAction;
+    public InputActionProperty leftXButton;
+    public UnityEvent leftXAction;
+    public InputActionProperty leftYButton;
+    public UnityEvent leftYAction;
 
     //public InputActionProperty[] inputActions;
     //public UnityEvent[] events;
@@ -31,6 +35,8 @@ public class ControlManager : MonoBehaviour
         float leftGripValue = leftGripButton.action.ReadValue<float>();
         float rightAValue = rightAButton.action.ReadValue<float>();
         float rightBValue = rightBButton.action.ReadValue<float>();
+        float leftXValue = leftXButton.action.ReadValue<float>();
+        float leftYValue = leftYButton.action.ReadValue<float>();
 
         //for (int i = 0; i < inputActions.Length; i++)
         //{
@@ -44,6 +50,8 @@ public class ControlManager : MonoBehaviour
         CheckInput(leftGripValue, leftGripAction);
         CheckInput(rightAValue, rightAAction);
         CheckInput(rightBValue, rightBAction);
+        CheckInput(leftYValue, leftYAction);
+        CheckInput(leftXValue, leftXAction);
     }
 
     private void CheckInput(float x, UnityEvent events)
