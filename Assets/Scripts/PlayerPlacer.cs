@@ -14,7 +14,7 @@ public class PlayerPlacer : MonoBehaviour
 
         if(posDiff.magnitude > 0)
         {
-            player.Translate(-posDiff.x, -posDiff.y, -posDiff.z);
+            player.Translate(-posDiff);
         }
     }
 
