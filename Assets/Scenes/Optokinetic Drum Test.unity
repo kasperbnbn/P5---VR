@@ -225,7 +225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &71708704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -942,7 +942,7 @@ Transform:
   m_GameObject: {fileID: 1095210554}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3741981, y: 0.7300001, z: 0.337}
+  m_LocalPosition: {x: 0.58, y: 0.5, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1691,7 +1691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14dd21dbb16c3f3469105d1fb54b5c19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 761559523}
+  player: {fileID: 1337332368}
   sitPos: {fileID: 1095210555}
 --- !u!1001 &1342572330
 PrefabInstance:
@@ -1798,6 +1798,7 @@ GameObject:
   - component: {fileID: 1568477615}
   - component: {fileID: 1568477617}
   - component: {fileID: 1568477618}
+  - component: {fileID: 1568477619}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2021,6 +2022,25 @@ MonoBehaviour:
   objectsToHide:
   - {fileID: 1741373489}
   - {fileID: 71708703}
+--- !u!114 &1568477619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568477614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732d77324aa537c4f9c173690ad856f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yAxis: {fileID: 410678807}
+  xAxis: {fileID: 4695906265906224028}
+  settings:
+  - yDegreesToTurn: 0
+    ySecondsForOneRotation: 0
+    xDegreesToTurn: 0
+    xSecondsForOneRotation: 0
 --- !u!1 &1640456823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,7 +2306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1741373490
 RectTransform:
   m_ObjectHideFlags: 0
