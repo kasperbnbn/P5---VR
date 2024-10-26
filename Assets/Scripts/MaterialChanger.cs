@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MaterialChanger : MonoBehaviour
@@ -7,14 +8,11 @@ public class MaterialChanger : MonoBehaviour
     public Material[] materials;
     private MeshRenderer mr;
     private int matIndex = 0;
-    Timer timer;
     bool debounce;
 
     private void Awake()
     {
         mr = GetComponent<MeshRenderer>();
-        timer = new Timer();
-        timer.StartTimer();
     }
 
     public void ChangeMat()
@@ -26,22 +24,13 @@ public class MaterialChanger : MonoBehaviour
                 matIndex = 0;
             mr.material = materials[matIndex];
             debounce = true;
+            StartCoroutine(CoolDown());
         }
 
     }
-
-    private void Update()
+    IEnumerator CoolDown()
     {
-        if(debounce)
-        {
-            if(timer.time > 1)
-            {
-                debounce = false;
-                timer.ResetTimer();
-            }
-        }
-
-        timer.IncrementTime();
+        yield return new WaitForSeconds(0.5f);
+        debounce = false;
     }
-
 }
