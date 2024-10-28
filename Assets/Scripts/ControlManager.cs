@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 
 public class ControlManager : MonoBehaviour
 {
-    public Transform xAxis;
-    public Transform yAxis;
+    //public Transform xAxis;
+    //public Transform yAxis;
 
     public InputActionProperty rightIndexButton;
     public UnityEvent rightIndexAction;
