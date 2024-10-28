@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MicroNormalMap:
-        m_Texture: {fileID: 2800000, guid: 0cc378f9d751c2e428ea731f64ed5f0f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 522fa75775f3ecb4facb4cbc8dda260e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalBlendMap:

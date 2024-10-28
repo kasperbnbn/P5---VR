@@ -21,8 +21,8 @@
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
                                     -5.457089424133301,
-                                    3.975309371948242,
-                                    107.74821472167969
+                                    3.975438117980957,
+                                    107.71944427490235
                                 ],
                                 "WorldRotationQ": [
                                     0.8121442198753357,
@@ -47,8 +47,8 @@
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
                                     5.457580089569092,
-                                    3.975309371948242,
-                                    107.74826049804688
+                                    3.975438117980957,
+                                    107.71949005126953
                                 ],
                                 "WorldRotationQ": [
                                     0.8121438026428223,
@@ -74,23 +74,23 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    8.860894203186036,
-                                    2.2566421031951906,
-                                    76.67170715332031
+                                    8.860892295837403,
+                                    2.2567384243011476,
+                                    76.64295196533203
                                 ],
                                 "WorldRotationQ": [
-                                    -0.030457712709903718,
-                                    0.7395486831665039,
-                                    -0.6715536117553711,
-                                    -0.03399837017059326
+                                    -0.03045770339667797,
+                                    0.7395481467247009,
+                                    -0.6715542078018189,
+                                    -0.033998385071754459
                                 ],
                                 "WorldScale": [
-                                    1.0,
+                                    0.9999998807907105,
                                     1.000000238418579,
-                                    1.0000003576278687
+                                    1.000000238418579
                                 ],
-                                "Radius": 7.471280097961426,
-                                "Capsule Length": 42.28236389160156
+                                "Radius": 7.471281051635742,
+                                "Capsule Length": 42.28236770629883
                             }
                         },
                         "CC_Base_L_Calf": {
@@ -103,22 +103,22 @@
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
                                     7.896939277648926,
-                                    5.006593704223633,
-                                    30.37656593322754
+                                    5.0066351890563969,
+                                    30.347803115844728
                                 ],
                                 "WorldRotationQ": [
-                                    -0.00643785297870636,
-                                    0.7131617069244385,
-                                    -0.7009369730949402,
-                                    -0.006811688654124737
+                                    -0.006437862291932106,
+                                    0.7131614089012146,
+                                    -0.7009372711181641,
+                                    -0.0068116639740765099
                                 ],
                                 "WorldScale": [
-                                    0.9999998211860657,
+                                    0.9999998807907105,
                                     1.0000001192092896,
                                     1.0000001192092896
                                 ],
                                 "Radius": 6.164678573608398,
-                                "Capsule Length": 35.07793045043945
+                                "Capsule Length": 35.07792663574219
                             }
                         },
                         "CC_Base_R_Thigh": {
@@ -130,23 +130,23 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    -8.862704277038575,
-                                    2.2542648315429689,
-                                    76.67109680175781
+                                    -8.86270523071289,
+                                    2.2543606758117677,
+                                    76.642333984375
                                 ],
                                 "WorldRotationQ": [
-                                    0.030456354841589929,
-                                    0.7395498752593994,
-                                    -0.6715523600578308,
-                                    0.03399692103266716
+                                    0.03045634552836418,
+                                    0.7395493984222412,
+                                    -0.6715529561042786,
+                                    0.033996935933828357
                                 ],
                                 "WorldScale": [
-                                    0.9999999403953552,
-                                    1.0,
-                                    1.0000003576278687
+                                    0.9999998807907105,
+                                    1.000000238418579,
+                                    1.000000238418579
                                 ],
-                                "Radius": 7.43878173828125,
-                                "Capsule Length": 42.342044830322269
+                                "Radius": 7.438780784606934,
+                                "Capsule Length": 42.342041015625
                             }
                         },
                         "CC_Base_R_Calf": {
@@ -158,23 +158,23 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    -7.893411159515381,
-                                    5.0970869064331059,
-                                    30.37762451171875
+                                    -7.893411636352539,
+                                    5.0971198081970219,
+                                    30.348846435546876
                                 ],
                                 "WorldRotationQ": [
-                                    0.006436250638216734,
-                                    0.7131140232086182,
-                                    -0.7009854316711426,
-                                    0.0068103251978755
+                                    0.00643625482916832,
+                                    0.7131136059761047,
+                                    -0.700985848903656,
+                                    0.006810320075601339
                                 ],
                                 "WorldScale": [
-                                    1.0000001192092896,
-                                    1.000000238418579,
-                                    1.0000001192092896
+                                    1.0000003576278687,
+                                    1.0000004768371583,
+                                    1.000000238418579
                                 ],
-                                "Radius": 6.154087066650391,
-                                "Capsule Length": 35.099098205566409
+                                "Radius": 6.154086112976074,
+                                "Capsule Length": 35.099090576171878
                             }
                         },
                         "CC_Base_Spine01": {
@@ -186,23 +186,23 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    0.00020097242668271065,
-                                    1.8928344249725342,
-                                    129.99746704101563
+                                    0.0002009945164900273,
+                                    1.8929650783538819,
+                                    129.96868896484376
                                 ],
                                 "WorldRotationQ": [
-                                    0.45411476492881777,
+                                    0.454114705324173,
                                     0.5420145988464356,
-                                    0.45411476492881777,
-                                    0.5420145392417908
+                                    0.454114705324173,
+                                    0.5420145988464356
                                 ],
                                 "WorldScale": [
                                     1.0000001192092896,
                                     1.0000001192092896,
                                     1.0
                                 ],
-                                "Radius": 12.009806632995606,
-                                "Capsule Length": 5.229333877563477
+                                "Radius": 12.009805679321289,
+                                "Capsule Length": 5.229335784912109
                             }
                         },
                         "CC_Base_NeckTwist01": {
@@ -214,23 +214,23 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    0.0002193656691815704,
-                                    6.422823429107666,
-                                    156.7002716064453
+                                    0.0002193878317484632,
+                                    6.42296028137207,
+                                    156.67152404785157
                                 ],
                                 "WorldRotationQ": [
-                                    0.7775060534477234,
-                                    -6.893937154472951e-8,
-                                    6.757850457006498e-8,
-                                    0.6288754343986511
+                                    0.7775061726570129,
+                                    -6.894030235571336e-8,
+                                    6.75794069593394e-8,
+                                    0.6288753747940064
                                 ],
                                 "WorldScale": [
                                     1.0,
-                                    1.0000001192092896,
-                                    1.0000001192092896
+                                    1.000000238418579,
+                                    1.000000238418579
                                 ],
-                                "Radius": 5.2611188888549809,
-                                "Capsule Length": 5.305224418640137
+                                "Radius": 5.261118412017822,
+                                "Capsule Length": 5.305222511291504
                             },
                             "Capsule(0)": {
                                 "Bone Active": true,
@@ -240,22 +240,22 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    0.0026412075385451318,
-                                    5.756402969360352,
-                                    143.0247039794922
+                                    0.002641229657456279,
+                                    5.756540775299072,
+                                    142.99594116210938
                                 ],
                                 "WorldRotationQ": [
-                                    0.5497797727584839,
-                                    0.4446820318698883,
                                     0.5497798323631287,
+                                    0.4446820318698883,
+                                    0.5497798919677734,
                                     0.44468212127685549
                                 ],
                                 "WorldScale": [
-                                    1.0,
-                                    1.0,
+                                    1.0000001192092896,
+                                    1.000000238418579,
                                     0.9999999403953552
                                 ],
-                                "Radius": 10.932319641113282,
+                                "Radius": 10.932317733764649,
                                 "Capsule Length": 13.708877563476563
                             },
                             "Capsule(1)": {
@@ -267,22 +267,22 @@
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
                                     -6.998782157897949,
-                                    1.245873212814331,
-                                    140.5097198486328
+                                    1.2460112571716309,
+                                    140.48097229003907
                                 ],
                                 "WorldRotationQ": [
-                                    0.3110983371734619,
+                                    0.3110983669757843,
                                     0.6349942684173584,
-                                    0.3110984265804291,
+                                    0.31109845638275149,
                                     0.634994387626648
                                 ],
                                 "WorldScale": [
-                                    1.0,
-                                    1.0,
+                                    1.000000238418579,
+                                    1.000000238418579,
                                     1.0
                                 ],
-                                "Radius": 7.25990104675293,
-                                "Capsule Length": 13.24941635131836
+                                "Radius": 7.259900093078613,
+                                "Capsule Length": 13.249414443969727
                             },
                             "Capsule(2)": {
                                 "Bone Active": true,
@@ -293,22 +293,22 @@
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
                                     7.001217842102051,
-                                    1.245873212814331,
-                                    140.5097198486328
+                                    1.2460112571716309,
+                                    140.48097229003907
                                 ],
                                 "WorldRotationQ": [
-                                    0.3110983371734619,
+                                    0.3110983669757843,
                                     0.6349942684173584,
-                                    0.3110984265804291,
+                                    0.31109845638275149,
                                     0.634994387626648
                                 ],
                                 "WorldScale": [
-                                    1.0,
-                                    1.0,
+                                    1.000000238418579,
+                                    1.000000238418579,
                                     1.0
                                 ],
-                                "Radius": 7.25990104675293,
-                                "Capsule Length": 13.24941635131836
+                                "Radius": 7.259900093078613,
+                                "Capsule Length": 13.249414443969727
                             }
                         },
                         "CC_Base_Head": {
@@ -320,9 +320,9 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    0.00028834532713517547,
-                                    3.248109817504883,
-                                    168.8948516845703
+                                    0.00028836741694249213,
+                                    3.2482378482818605,
+                                    168.8660888671875
                                 ],
                                 "WorldRotationQ": [
                                     0.707106351852417,
@@ -348,23 +348,23 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    26.85419464111328,
-                                    8.907756805419922,
-                                    147.56309509277345
+                                    26.854196548461915,
+                                    8.907885551452637,
+                                    147.53433227539063
                                 ],
                                 "WorldRotationQ": [
-                                    0.4997756779193878,
-                                    0.5001262426376343,
-                                    -0.4991971254348755,
-                                    0.5008994340896606
+                                    0.49977579712867739,
+                                    0.5001261234283447,
+                                    -0.4991970658302307,
+                                    0.5008994936943054
                                 ],
                                 "WorldScale": [
-                                    1.0000001192092896,
-                                    1.0000001192092896,
-                                    1.0000001192092896
+                                    1.0,
+                                    1.0000003576278687,
+                                    1.000000238418579
                                 ],
                                 "Radius": 5.045426368713379,
-                                "Capsule Length": 22.94368553161621
+                                "Capsule Length": 22.943681716918947
                             }
                         },
                         "CC_Base_L_Forearm": {
@@ -377,22 +377,22 @@
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
                                     54.04573059082031,
-                                    8.403599739074707,
-                                    148.8013458251953
+                                    8.403729438781739,
+                                    148.77264404296876
                                 ],
                                 "WorldRotationQ": [
-                                    0.49849292635917666,
-                                    0.5014374852180481,
-                                    -0.5005637407302856,
-                                    0.49950098991394045
+                                    0.4984930455684662,
+                                    0.5014373660087586,
+                                    -0.5005636215209961,
+                                    0.49950110912323
                                 ],
                                 "WorldScale": [
-                                    0.9999999403953552,
-                                    1.000000238418579,
+                                    1.0,
+                                    1.0000003576278687,
                                     1.0000001192092896
                                 ],
                                 "Radius": 4.368337631225586,
-                                "Capsule Length": 21.781394958496095
+                                "Capsule Length": 21.781391143798829
                             }
                         },
                         "CC_Base_L_Hand": {
@@ -404,25 +404,25 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    72.281982421875,
-                                    7.403492450714111,
-                                    148.6964569091797
+                                    72.28199005126953,
+                                    7.403622627258301,
+                                    148.66773986816407
                                 ],
                                 "WorldRotationQ": [
-                                    0.49493977427482607,
-                                    0.5049157738685608,
-                                    -0.48681119084358218,
-                                    0.5129420757293701
+                                    0.494939923286438,
+                                    0.5049154758453369,
+                                    -0.48681098222732546,
+                                    0.512942373752594
                                 ],
                                 "WorldScale": [
-                                    1.0,
                                     1.0000001192092896,
-                                    1.0000001192092896
+                                    1.0000005960464478,
+                                    1.0000003576278687
                                 ],
                                 "Extent": [
-                                    4.522910118103027,
-                                    9.57201862335205,
-                                    8.07064437866211
+                                    4.522909164428711,
+                                    9.572015762329102,
+                                    8.070642471313477
                                 ]
                             }
                         },
@@ -435,19 +435,19 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    -26.860689163208009,
-                                    8.907624244689942,
-                                    147.56346130371095
+                                    -26.86069107055664,
+                                    8.907754898071289,
+                                    147.53469848632813
                                 ],
                                 "WorldRotationQ": [
-                                    0.4997757375240326,
-                                    -0.500126302242279,
-                                    0.49919718503952029,
-                                    0.5008993744850159
+                                    0.49977579712867739,
+                                    -0.5001261830329895,
+                                    0.49919700622558596,
+                                    0.5008994340896606
                                 ],
                                 "WorldScale": [
                                     1.000000238418579,
-                                    1.0000003576278687,
+                                    1.000000238418579,
                                     1.000000238418579
                                 ],
                                 "Radius": 5.0451860427856449,
@@ -463,23 +463,23 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    -54.03902816772461,
-                                    8.40294361114502,
-                                    148.80209350585938
+                                    -54.039024353027347,
+                                    8.403072357177735,
+                                    148.77340698242188
                                 ],
                                 "WorldRotationQ": [
-                                    -0.4984927773475647,
-                                    0.5014376044273377,
-                                    -0.50056391954422,
-                                    -0.4995008707046509
+                                    -0.4984929859638214,
+                                    0.5014374852180481,
+                                    -0.5005636811256409,
+                                    -0.49950093030929568
                                 ],
                                 "WorldScale": [
                                     1.0,
-                                    1.000000238418579,
-                                    1.0000003576278687
+                                    1.0000003576278687,
+                                    1.000000238418579
                                 ],
-                                "Radius": 4.368196487426758,
-                                "Capsule Length": 21.766496658325197
+                                "Radius": 4.368195533752441,
+                                "Capsule Length": 21.766494750976564
                             }
                         },
                         "CC_Base_R_Hand": {
@@ -491,25 +491,25 @@
                                 "Friction": 0.05000000074505806,
                                 "Elasticity": 0.5,
                                 "WorldTranslate": [
-                                    -72.28742218017578,
-                                    7.670277118682861,
-                                    148.6748046875
+                                    -72.28741455078125,
+                                    7.670407295227051,
+                                    148.64605712890626
                                 ],
                                 "WorldRotationQ": [
-                                    0.4949398338794708,
-                                    -0.5049158334732056,
-                                    0.48681122064590456,
-                                    0.5129419565200806
+                                    0.4949398934841156,
+                                    -0.5049155354499817,
+                                    0.4868110120296478,
+                                    0.5129422545433044
                                 ],
                                 "WorldScale": [
                                     1.0000001192092896,
-                                    1.000000238418579,
-                                    1.0000001192092896
+                                    1.0000004768371583,
+                                    1.0000003576278687
                                 ],
                                 "Extent": [
                                     5.314798355102539,
-                                    9.573323249816895,
-                                    8.195561408996582
+                                    9.573322296142579,
+                                    8.19555950164795
                                 ]
                             }
                         }
@@ -570,7 +570,7 @@
                                     "Shader Name": "RLTongue",
                                     "Image": {
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroN.png"
                                         },
                                         "Gradient AO": {
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Tongue/Std_Tongue/Std_Tongue_GradAO.jpg"
@@ -724,7 +724,7 @@
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SSSMap.jpg"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroN.png"
                                         },
                                         "Cheek Fore UpperLip Chin Mask": {
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga"
@@ -936,7 +936,7 @@
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_SSSMap.png"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroNMask.jpg"
@@ -1100,7 +1100,7 @@
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_SSSMap.png"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg"
@@ -1264,7 +1264,7 @@
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MicroNMask.jpg"
@@ -1428,7 +1428,7 @@
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                            "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/Avatar/Avatar/CC_Base_Body/Std_Nails/Std_Nails_MicroNMask.jpg"
@@ -2207,19 +2207,19 @@
                                     "Shader Name": "RLEye",
                                     "Image": {
                                         "Iris Normal": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisN.png"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
                                         },
                                         "Sclera Normal": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ScleraN.png"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
                                         },
                                         "EyeBlendMap2": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_BCBMap.jpg"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
                                         },
                                         "Inner Iris Mask": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisMask.png"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
                                         },
                                         "Sclera": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_Sclera.jpg"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
                                         }
                                     },
                                     "Variable": {
@@ -2438,19 +2438,19 @@
                                     "Shader Name": "RLEye",
                                     "Image": {
                                         "Iris Normal": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisN.png"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
                                         },
                                         "Sclera Normal": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ScleraN.png"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
                                         },
                                         "EyeBlendMap2": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_BCBMap.jpg"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
                                         },
                                         "Inner Iris Mask": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_IrisMask.png"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
                                         },
                                         "Sclera": {
-                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_Sclera.jpg"
+                                            "Texture Path": "./textures/Avatar/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
                                         }
                                     },
                                     "Variable": {
