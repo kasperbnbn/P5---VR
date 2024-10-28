@@ -23,6 +23,10 @@ public class ControlManager : MonoBehaviour
     public UnityEvent leftXAction;
     public InputActionProperty leftYButton;
     public UnityEvent leftYAction;
+    public InputActionProperty rightStickClick;
+    public UnityEvent rightStickClickAction;
+    public InputActionProperty leftStickClick;
+    public UnityEvent leftStickClickAction;
 
     //public InputActionProperty[] inputActions;
     //public UnityEvent[] events;
@@ -37,6 +41,8 @@ public class ControlManager : MonoBehaviour
         float rightBValue = rightBButton.action.ReadValue<float>();
         float leftXValue = leftXButton.action.ReadValue<float>();
         float leftYValue = leftYButton.action.ReadValue<float>();
+        float rightStickValue = rightStickClick.action.ReadValue<float>();
+        float leftStickValue = leftStickClick.action.ReadValue<float>();
 
         //for (int i = 0; i < inputActions.Length; i++)
         //{
@@ -52,6 +58,8 @@ public class ControlManager : MonoBehaviour
         CheckInput(rightBValue, rightBAction);
         CheckInput(leftYValue, leftYAction);
         CheckInput(leftXValue, leftXAction);
+        CheckInput(rightStickValue, rightStickClickAction);
+        CheckInput(leftStickValue, leftStickClickAction);
     }
 
     private void CheckInput(float x, UnityEvent events)

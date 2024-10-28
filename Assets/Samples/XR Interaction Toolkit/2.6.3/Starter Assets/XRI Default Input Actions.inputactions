@@ -799,6 +799,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Stick Click",
+                    "type": "Button",
+                    "id": "8e2e48e5-5f9e-4565-859e-34241a554d05",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -986,6 +995,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Y-Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a85d3192-fa24-44fe-9596-542834740398",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Stick Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1635,6 +1655,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Click Stick",
+                    "type": "Button",
+                    "id": "c5c86bbe-2fe8-40ed-86d3-d3a87dab2f4a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1822,6 +1851,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "B-Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "efca50e8-7d33-4fbc-acf1-842cc7bc9703",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click Stick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

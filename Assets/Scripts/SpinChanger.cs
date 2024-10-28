@@ -8,6 +8,7 @@ public class SpinChanger : MonoBehaviour
     [SerializeField] private SpinActivatorX xAxis;
     [SerializeField] private List<SpinSettings> settings;
     private int index;
+    private bool cooldown = false;
 
     private void Awake()
     {
@@ -23,13 +24,25 @@ public class SpinChanger : MonoBehaviour
 
     public void ChangeSettings()
     {
-        yAxis.degreesToTurn = settings[index].yDegreesToTurn;
-        xAxis.degreesToTurn = settings[index].xDegreesToTurn;
-        yAxis.secondsForOneRotation = settings[index].ySecondsForOneRotation;
-        xAxis.secondsForOneRotation = settings[index].xSecondsForOneRotation;
-        index++;
-        if (index >= settings.Count)
-           index = 0;        
+        if(!cooldown)
+        {
+            yAxis.degreesToTurn = settings[index].yDegreesToTurn;
+            xAxis.degreesToTurn = settings[index].xDegreesToTurn;
+            yAxis.secondsForOneRotation = settings[index].ySecondsForOneRotation;
+            xAxis.secondsForOneRotation = settings[index].xSecondsForOneRotation;
+            index++;
+            if (index >= settings.Count)
+                index = 0;
+            cooldown = true;
+            StartCoroutine(CoolDown());
+        }
+     
+    }
+
+    IEnumerator CoolDown()
+    {
+        yield return new WaitForSeconds(0.5f);
+        cooldown = false;
     }
 }
 
