@@ -429,7 +429,7 @@ namespace SatorImaging.PoseEditor
 
 
                 EditorGUI.BeginChangeCheck();
-                var fmh_432_59_638657163382959912 = bones[i].rotation; Handles.FreeMoveHandle(bones[i].position, handleSize * worldSize * handle.handleScale, Vector3.zero, Handles.SphereHandleCap);
+                var fmh_432_59_638657254779467617 = bones[i].rotation; Handles.FreeMoveHandle(bones[i].position, handleSize * worldSize * handle.handleScale, Vector3.zero, Handles.SphereHandleCap);
                 //Handles.FreeRotateHandle(bones[i].rotation, bones[i].position, handleSize);
                 //Handles.RotationHandle(bones[i].rotation, bones[i].position);
 
