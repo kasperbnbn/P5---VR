@@ -11,7 +11,7 @@ public class AnimationPicker : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         variantNumber = Random.Range(0, 4);
-        float offset = Random.Range(0, 1);
+        float offset = Random.Range(0f, 1f);
 
         Invoke("Starting", offset);
     }
