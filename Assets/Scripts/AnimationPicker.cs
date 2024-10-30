@@ -13,12 +13,11 @@ public class AnimationPicker : MonoBehaviour
         variantNumber = Random.Range(0, 3);
         float offset = Random.Range(0, 1);
 
-        StartCoroutine(Starting(offset));
+        Invoke("Starting", offset);
     }
 
-    IEnumerator Starting(float time)
+    private void Starting()
     {
-        yield return new WaitForSeconds(time);
         animator.SetInteger("Variant", variantNumber);
     }
 }
