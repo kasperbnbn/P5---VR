@@ -5,12 +5,12 @@ using UnityEngine;
 public class AnimationPicker : MonoBehaviour
 {
     private Animator animator;
-    [SerializeField]private int variantNumber;
+    [SerializeField]private int Variant;
     
     void OnEnable()
     {
         animator = GetComponent<Animator>();
-        variantNumber = Random.Range(0, 4);
+        Variant = Random.Range(0, 8);
         float offset = Random.Range(0f, 1f);
 
         Invoke("Starting", offset);
@@ -18,6 +18,6 @@ public class AnimationPicker : MonoBehaviour
 
     private void Starting()
     {
-        animator.SetInteger("Variant", variantNumber);
+        animator.SetInteger("Variant", Variant);
     }
 }
