@@ -7,7 +7,7 @@ using UnityEngine.XR;
 
 public class SpinActivatorX : MonoBehaviour
 {
-    UnityEngine.XR.HapticCapabilities capabilitiesL;
+ 
     public KeyCode key;
     public float degreesToTurn;
     bool started = false;
@@ -43,7 +43,7 @@ public class SpinActivatorX : MonoBehaviour
                 if (timer.time >= 1)
                 {
                     started = true;
-                    startVibra();
+                   
                 }
             }
 
@@ -85,15 +85,5 @@ public class SpinActivatorX : MonoBehaviour
     {
         this.transform.localRotation = Quaternion.AngleAxis(movement, Vector3.right);
     }
-    public void startVibra()
-    {
-        InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetHapticCapabilities(out capabilitiesL);
-        if (capabilitiesL.supportsImpulse && started)
-        {
-            uint channel = 0;
-            float amplitude = 1.0f;
-            float duration = 1.0f;
-            InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).SendHapticImpulse(channel, amplitude, duration);
-        }
-    }
+    
 }

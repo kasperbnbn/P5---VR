@@ -5,14 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Optokinetic Drum Test.unity
     guid: 67893dd6b6b56574ab45c522f57e48fb
   - enabled: 1
-    path: Assets/Scenes/Test Scenes/Animation dense bolde.unity
-    guid: b0e9dd24a947427478ce635982b42fa4
-  - enabled: 1
-    path: Assets/Scenes/Test Scenes/Animation Spread.unity
+    path: Assets/Scenes/Animation Spread.unity
     guid: 15384ae6d99768d4e801952186740f08
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 775006394130d8f4fb5ec98c1edbd580,

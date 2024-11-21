@@ -15,7 +15,7 @@ public class SpinActivator : MonoBehaviour
 
     public InputActionProperty activateButton;
     public InputActionProperty deactivateButton;
-    UnityEngine.XR.HapticCapabilities capabilitiesL;
+  
    
 
     private Timer timer;
@@ -39,7 +39,7 @@ public class SpinActivator : MonoBehaviour
                 if (timer.time >= 1)
                 {
                     started = true;
-                    startVibra();
+                   
                 }
             }
 
@@ -81,15 +81,5 @@ public class SpinActivator : MonoBehaviour
         this.transform.localRotation = Quaternion.AngleAxis(movement, Vector3.up);
     }
 
-    public void startVibra()
-    {
-        InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetHapticCapabilities(out capabilitiesL);
-        if (capabilitiesL.supportsImpulse && started)
-        {
-            uint channel = 0;
-            float amplitude = 1.0f;
-            float duration = 0.5f;
-            InputDevices.GetDeviceAtXRNode(XRNode.RightHand).SendHapticImpulse(channel, amplitude, duration);
-        }
-    }
+   
 }
