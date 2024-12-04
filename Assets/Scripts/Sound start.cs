@@ -13,12 +13,8 @@ public class Soundstart : MonoBehaviour
             
             Sound.Play();
             isPlaying = true;
-            StartCoroutine(CoolDown());
+            
         }
     }
-    IEnumerator CoolDown()
-    {
-        yield return new WaitForSeconds(0.5f);
-        isPlaying = false;
-    }
+    
 }

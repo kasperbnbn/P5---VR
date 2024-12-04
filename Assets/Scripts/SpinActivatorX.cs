@@ -14,7 +14,7 @@ public class SpinActivatorX : MonoBehaviour
     private float speed = 6;//Takes 360 seconds for a full rotation at speed == 1. 60 seconds is speed == 6
     public float secondsForOneRotation = 60;
     private float movement;
-
+    UnityEngine.XR.HapticCapabilities capabilitiesL;
     public InputActionProperty activateButton;
     public InputActionProperty deactivateButton;
     //float timer = 0f;
@@ -57,6 +57,7 @@ public class SpinActivatorX : MonoBehaviour
                 if (timer.time >= 0.5f)
                 {
                     started = false;
+                    vibra();
                 }
             }
         }
@@ -84,6 +85,19 @@ public class SpinActivatorX : MonoBehaviour
     private void StartSpin()
     {
         this.transform.localRotation = Quaternion.AngleAxis(movement, Vector3.right);
+       
     }
     
+    private void vibra()
+    {
+        InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetHapticCapabilities(out capabilitiesL);
+        if (capabilitiesL.supportsImpulse)
+        {
+            uint channel = 0;
+            float amplitude = 0.5f;
+            float duration = 0.4f;
+            InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).SendHapticImpulse(channel, amplitude, duration);
+            InputDevices.GetDeviceAtXRNode(XRNode.RightHand).SendHapticImpulse(channel, amplitude, duration);
+        }
+    }
 }
