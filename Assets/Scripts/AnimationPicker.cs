@@ -10,7 +10,7 @@ public class AnimationPicker : MonoBehaviour
     void OnEnable()
     {
         animator = GetComponent<Animator>();
-        Variant = Random.Range(0, 8);
+        Variant = Random.Range(0, 9);
         float offset = Random.Range(0f, 1f);
 
         Invoke("Starting", offset);
