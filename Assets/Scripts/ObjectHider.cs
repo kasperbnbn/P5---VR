@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ObjectHider : MonoBehaviour
@@ -18,8 +17,7 @@ public class ObjectHider : MonoBehaviour
 
             }
             StartCoroutine(CoolDown());
-        }
-        
+        }       
     }
 
     IEnumerator CoolDown()

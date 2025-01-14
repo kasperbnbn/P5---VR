@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MeshHider : MonoBehaviour
@@ -9,7 +8,7 @@ public class MeshHider : MonoBehaviour
 
     public void Hide()
     {
-        if (!cooldown)
+        if(!cooldown)
         {
             cooldown = true;
             foreach (GameObject m in meshToHide)

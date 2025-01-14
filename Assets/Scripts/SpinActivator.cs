@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR;
@@ -15,9 +13,6 @@ public class SpinActivator : MonoBehaviour
     UnityEngine.XR.HapticCapabilities capabilitiesL;
     public InputActionProperty activateButton;
     public InputActionProperty deactivateButton;
-  
-   
-
     private Timer timer;
 
     private void Awake()
